@@ -1,35 +1,59 @@
+### project-special ###
+*.log
+logs/
+test/
+images/
+demo.json
+*.secret.properties
+
+### document ###
+*.xlx
+*.xlsx
+*.csv
+*.pdf
+
+### springboot ###
 HELP.md
 target/
-log/
-test/
+out/
+.mvn
+mvnw
+mvnw.cmd
 
-## document ##
-*.xlx
-*.xlxs
-
-## hexo ##
-.DS_Store
+### hexo ###
+.DS_Store/
+node_modules/
 Thumbs.db
 db.json
 *.log
-node_modules/
 public/
 .deploy*/
-
-.DS_Store
-node_modules/
 /dist/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Editor directories and files
-.idea
-.vscode
+### java ###
+*.class
+*.ctxt
+hs_err_pid*
+*.jar
+*.war
+*.nar
+*.ear
+
+### python ###
+__pycache__/
+*.pyc
+
+### VisualStudio ###
 *.suo
-*.ntvs*
 *.njsproj
 *.sln
+*.rsuser
+*.user
+.vs/
+*.meta
 
 ### STS ###
 .apt_generated
@@ -46,13 +70,6 @@ yarn-error.log*
 *.iml
 *.ipr
 
-### PyCharm ###
-__pycache__/
-
-### Sublime Text ###
-*.sublime-project
-*.sublime-workspace
-
 ### NetBeans ###
 nbproject/private/
 nbbuild/
@@ -64,4 +81,6 @@ build/
 ### VS Code ###
 .vscode/
 
-
+### Sublime Text ###
+*.sublime-project
+*.sublime-workspace
